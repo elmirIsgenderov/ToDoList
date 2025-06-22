@@ -55,7 +55,6 @@ dependencies {
     //Room
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.runtime)
-    //noinspection KaptUsageInsteadOfKsp
     kapt(libs.androidx.room.compiler)
 
     //MVVM.
